@@ -1,0 +1,1388 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 17 to "Nimbus-Sans-L-Regular-Condensed", "Nimbus-Sans-L-Regular-Condensed"
+@map font 18 to "Nimbus-Sans-L-Bold-Condensed", "Nimbus-Sans-L-Bold-Condensed"
+@map font 19 to "Nimbus-Sans-L-Regular-Condensed-Italic", "Nimbus-Sans-L-Regular-Condensed-Italic"
+@map font 20 to "Nimbus-Sans-L-Bold-Condensed-Italic", "Nimbus-Sans-L-Bold-Condensed-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 29 to "URW-Palladio-L-Roman", "URW-Palladio-L-Roman"
+@map font 30 to "URW-Palladio-L-Bold", "URW-Palladio-L-Bold"
+@map font 31 to "URW-Palladio-L-Italic", "URW-Palladio-L-Italic"
+@map font 32 to "URW-Palladio-L-Bold-Italic", "URW-Palladio-L-Bold-Italic"
+@map font 12 to "Symbol", "Symbol"
+@map font 34 to "URW-Chancery-L-Medium-Italic", "URW-Chancery-L-Medium-Italic"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Sun Feb 12 09:21:47 2023"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, -0.02, 50, 2
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 10
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel off
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.5
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel off
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 11
+@    s0 symbol pattern 1
+@    s0 symbol fill color 11
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 11
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 11
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 11
+@    s1 symbol pattern 1
+@    s1 symbol fill color 11
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 11
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 11
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 11
+@    s2 symbol pattern 1
+@    s2 symbol fill color 11
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 11
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 11
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s2 legend  ""
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 11
+@    s3 symbol pattern 1
+@    s3 symbol fill color 11
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 11
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 11
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 11
+@    s4 symbol pattern 1
+@    s4 symbol fill color 11
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 1
+@    s4 line linewidth 1.0
+@    s4 line color 11
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 11
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s4 legend  ""
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 11
+@    s5 symbol pattern 1
+@    s5 symbol fill color 11
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 11
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 11
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 11
+@    s6 symbol pattern 1
+@    s6 symbol fill color 11
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 1
+@    s6 line linewidth 1.0
+@    s6 line color 11
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 11
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s6 legend  ""
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 11
+@    s7 symbol pattern 1
+@    s7 symbol fill color 11
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 11
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 11
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xy
+@    s8 symbol 0
+@    s8 symbol size 1.000000
+@    s8 symbol color 11
+@    s8 symbol pattern 1
+@    s8 symbol fill color 11
+@    s8 symbol fill pattern 0
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 1
+@    s8 line linewidth 1.0
+@    s8 line color 11
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 11
+@    s8 errorbar pattern 1
+@    s8 errorbar size 1.000000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 11
+@    s9 symbol pattern 1
+@    s9 symbol fill color 11
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 11
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 11
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAllData.dat"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xy
+@    s10 symbol 0
+@    s10 symbol size 1.000000
+@    s10 symbol color 11
+@    s10 symbol pattern 1
+@    s10 symbol fill color 11
+@    s10 symbol fill pattern 0
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 1
+@    s10 line linewidth 10.0
+@    s10 line color 11
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 11
+@    s10 errorbar pattern 1
+@    s10 errorbar size 1.000000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "/home/plourde/GRACE/MicroscopyData/LaggRecoveryAvgData.dat"
+@    s10 legend  ""
+@target G0.S0
+@type xy
+0 0
+1 0.049846353
+2 0.11663954
+3 0.12204902
+4 0.19595341
+5 0.18988435
+6 0.36187568
+7 0.39420678
+8 0.36496837
+9 0.44160484
+10 0.51576379
+11 0.50596071
+12 0.53755015
+13 0.64738353
+14 0.67163893
+15 0.60729198
+16 0.62308631
+17 0.76725183
+18 0.66037955
+19 0.66338604
+20 0.61648563
+21 0.58289049
+22 0.52948122
+23 0.46749052
+24 0.57044035
+25 0.62537074
+26 0.65234374
+27 0.74407491
+28 0.83109072
+29 0.91092908
+30 0.98278542
+31 1.0079641
+32 0.95122574
+33 0.96099469
+34 0.86805202
+35 1.0054466
+36 0.85092241
+37 0.91069919
+38 1.0497995
+39 1.1112446
+40 1.1126651
+41 1.1375761
+42 1.249101
+43 1.2815168
+44 1.1749983
+45 1.3786118
+46 1.1545459
+47 1.3801388
+48 1.3015109
+49 1.195392
+50 1.2281586
+&
+@target G0.S1
+@type xy
+0 0
+1 0.19004374
+2 0.26881951
+3 0.29204487
+4 0.27678735
+5 0.28323854
+6 0.37556308
+7 0.4220745
+8 0.38774859
+9 0.4506188
+10 0.54420281
+11 0.73483669
+12 0.74791683
+13 0.445112
+14 0.38862237
+15 0.28021141
+16 0.3530639
+17 0.37440427
+18 0.63781659
+19 0.73373599
+20 1.0940361
+21 1.2078738
+22 1.0979395
+23 0.98603123
+24 0.93559106
+25 0.88571303
+26 0.75293979
+27 0.90477445
+28 1.0197734
+29 1.0960756
+30 1.1544311
+31 1.193277
+32 0.99973429
+33 0.88079649
+34 0.8037579
+35 0.77892049
+36 0.94849137
+37 1.2557688
+38 1.6642963
+39 1.6629186
+40 1.3878437
+41 1.4215247
+42 1.1094994
+43 1.038841
+44 1.3206016
+45 1.4287493
+46 1.4256969
+47 1.3684449
+48 1.1041003
+49 1.0255354
+50 1.1090319
+&
+@target G0.S2
+@type xy
+0 0
+1 0.14847661
+2 0.18678875
+3 0.25741249
+4 0.37691148
+5 0.43615205
+6 0.49184718
+7 0.46994329
+8 0.40909793
+9 0.35737512
+10 0.4807742
+11 0.64112544
+12 0.61255919
+13 0.59564696
+14 0.60527802
+15 0.63864018
+16 0.66668607
+17 0.89673136
+18 0.90958926
+19 0.98349246
+20 1.0648867
+21 1.0281747
+22 1.0714095
+23 1.1118193
+24 1.0675901
+25 1.0458003
+26 1.1924083
+27 1.3364249
+28 1.1267484
+29 1.139715
+30 1.1631197
+31 1.2186044
+32 1.1505208
+33 1.1672354
+34 1.1220109
+35 1.112812
+36 1.1972898
+37 1.2529636
+38 1.2276136
+39 1.2367654
+40 1.3463237
+41 1.4170364
+42 1.3793384
+43 1.5335282
+44 1.542849
+45 1.394635
+46 1.4672687
+47 1.5804253
+48 1.598957
+49 1.5060293
+50 1.3732166
+&
+@target G0.S3
+@type xy
+0 0
+1 -0.010586638
+2 0.050412682
+3 0.094573348
+4 0.15774117
+5 0.13685908
+6 0.17033793
+7 0.14649479
+8 0.19001376
+9 0.23225735
+10 0.27297036
+11 0.3583645
+12 0.43662102
+13 0.41881398
+14 0.33413801
+15 0.35446177
+16 0.49799827
+17 0.61443743
+18 0.63839723
+19 0.88424403
+20 0.84766762
+21 0.92253117
+22 0.93880316
+23 0.95893572
+24 0.96870924
+25 0.87356963
+26 0.88666285
+27 0.92117431
+28 0.88212778
+29 0.66704072
+30 0.75225217
+31 0.57720114
+32 0.6094245
+33 0.627395
+34 0.67975985
+35 0.75973896
+36 0.792027
+37 0.7264158
+38 0.71937125
+39 0.74803186
+40 0.65267567
+41 0.76060586
+42 0.74072577
+43 0.90940863
+44 0.75913594
+45 0.87759652
+46 0.94885592
+47 0.93937498
+48 0.95114104
+49 0.92716766
+50 0.95443889
+&
+@target G0.S4
+@type xy
+0 0
+1 0.09295666
+2 0.20506054
+3 0.22251844
+4 0.19698768
+5 0.2276348
+6 0.28331854
+7 0.54420882
+8 0.57920465
+9 0.57331003
+10 0.69036187
+11 0.66272629
+12 0.7102025
+13 0.71637225
+14 0.63314102
+15 0.65176487
+16 0.76263057
+17 0.71841893
+18 0.71852807
+19 0.81393359
+20 0.79062971
+21 0.74818483
+22 0.86967226
+23 0.92848304
+24 0.89897251
+25 0.94396779
+26 0.90457825
+27 1.0289776
+28 0.99544344
+29 0.95517021
+30 0.9749428
+31 0.89166602
+32 0.82207781
+33 0.74974008
+34 0.81430441
+35 0.56748579
+36 0.59110016
+37 0.50174259
+38 0.44267851
+39 0.4825722
+40 0.51622867
+41 0.63903002
+42 0.74057367
+43 0.64322326
+44 0.67045338
+45 0.69403214
+46 0.73657762
+47 0.78111094
+48 0.78177397
+49 0.69935586
+50 0.66730176
+&
+@target G0.S5
+@type xy
+0 0
+1 0.099799852
+2 0.084276543
+3 0.13883577
+4 0.15978055
+5 0.19051855
+6 0.22458223
+7 0.18947323
+8 0.2554683
+9 0.34023398
+10 0.38503439
+11 0.43561518
+12 0.46268024
+13 0.48777055
+14 0.5159489
+15 0.51418308
+16 0.56523599
+17 0.55286253
+18 0.61438196
+19 0.66621039
+20 0.65292084
+21 0.77350895
+22 0.75029396
+23 0.74293988
+24 0.7684056
+25 0.97430764
+26 0.84283942
+27 0.80252495
+28 0.82887751
+29 0.80401664
+30 0.83573903
+31 0.86024903
+32 0.72592191
+33 0.89507215
+34 0.81201356
+35 0.9329084
+36 1.057816
+37 1.0105641
+38 0.97817491
+39 0.9097551
+40 0.89233093
+41 0.99883897
+42 1.0411388
+43 1.0577898
+44 1.0274996
+45 1.21954
+46 1.278966
+47 1.1552767
+48 1.3191833
+49 1.3054067
+50 1.1772578
+&
+@target G0.S6
+@type xy
+0 0
+1 0.11980507
+2 0.20344907
+3 0.37800535
+4 0.49831213
+5 0.42378761
+6 0.39772506
+7 0.42558959
+8 0.39733774
+9 0.55816242
+10 0.64204645
+11 0.70997136
+12 0.89846828
+13 1.1325734
+14 1.1986162
+15 1.0695058
+16 1.1703111
+17 1.2529522
+18 0.98560586
+19 1.0714399
+20 0.89914789
+21 0.93274069
+22 0.97526826
+23 0.97808664
+24 1.0635039
+25 1.1396551
+26 1.1241421
+27 1.3687266
+28 1.5488672
+29 1.6020069
+30 1.5235375
+31 1.4216105
+32 1.2887567
+33 1.145975
+34 1.2331766
+35 1.3926068
+36 1.4473509
+37 1.4390333
+38 1.3479107
+39 1.2043697
+40 1.1215551
+41 1.1394986
+42 1.2450664
+43 1.5365271
+44 1.9786959
+45 1.3253432
+46 1.0921823
+47 1.0029652
+48 1.0769906
+49 1.2206234
+50 1.4796098
+&
+@target G0.S7
+@type xy
+0 0
+1 0.092284438
+2 0.16716494
+3 0.28306695
+4 0.35771026
+5 0.42555318
+6 0.41914094
+7 0.48736753
+8 0.48685867
+9 0.51712796
+10 0.56135661
+11 0.71278157
+12 0.79759553
+13 0.77296472
+14 0.81913273
+15 0.66240859
+16 0.76611501
+17 0.9648157
+18 0.7378667
+19 0.92802775
+20 0.87459414
+21 0.86842791
+22 1.0657379
+23 1.1888601
+24 1.1668852
+25 1.1083956
+26 1.0890169
+27 1.1060148
+28 1.1016454
+29 1.0251086
+30 1.0213966
+31 1.1001725
+32 1.0756306
+33 1.0503533
+34 0.93739974
+35 0.93719286
+36 1.0407746
+37 0.95125388
+38 0.97455221
+39 1.2231858
+40 1.2066888
+41 1.235756
+42 1.1091782
+43 1.251911
+44 1.117838
+45 1.13355
+46 1.206519
+47 1.2457705
+48 1.3380582
+49 1.3331638
+50 1.3495982
+&
+@target G0.S8
+@type xy
+0 0
+1 0.19328657
+2 0.19446445
+3 0.2892898
+4 0.3632609
+5 0.38555295
+6 0.43601582
+7 0.48829111
+8 0.59273883
+9 0.64622223
+10 0.60992968
+11 0.66248689
+12 0.7677086
+13 0.81867943
+14 0.90925338
+15 0.84837654
+16 0.76003658
+17 0.81566765
+18 0.6997937
+19 0.99150299
+20 1.0085232
+21 1.1011714
+22 1.0530047
+23 0.93996836
+24 0.95061617
+25 0.99320612
+26 1.0987726
+27 1.2038489
+28 1.0551202
+29 1.3452164
+30 1.4290328
+31 1.4126079
+32 1.3838537
+33 1.2966966
+34 1.2946777
+35 1.3629074
+36 1.3743323
+37 1.3613637
+38 1.3517367
+39 1.3255941
+40 1.4001826
+41 1.4447138
+42 1.5734634
+43 1.4865143
+44 1.5556026
+45 1.3944658
+46 1.2840051
+47 1.38732
+48 1.4706399
+49 1.6317364
+50 1.5628257
+&
+@target G0.S9
+@type xy
+0 0
+1 0.024061845
+2 0.15254739
+3 0.12620507
+4 0.11973382
+5 0.26441344
+6 0.30649566
+7 0.38783723
+8 0.38765514
+9 0.43653806
+10 0.4668061
+11 0.52538771
+12 0.57510475
+13 0.52554176
+14 0.46907478
+15 0.52400956
+16 0.61726303
+17 0.48431121
+18 0.49561722
+19 0.40764781
+20 0.52453545
+21 0.66140479
+22 0.54792647
+23 0.48381038
+24 0.61905394
+25 0.74757632
+26 0.83081293
+27 0.79894998
+28 0.76700242
+29 0.8615477
+30 0.82390496
+31 0.85700607
+32 1.0133904
+33 0.88882657
+34 1.0454942
+35 1.110936
+36 1.0182121
+37 0.91654899
+38 0.91075527
+39 0.93134987
+40 1.0168437
+41 1.2048003
+42 1.2234299
+43 0.98454594
+44 1.4251998
+45 0.92512711
+46 1.3049023
+47 1.1575118
+48 1.0339991
+49 1.1652242
+50 1.1329285
+&
+@target G0.S10
+@type xy
+0 0
+1 0.09999745
+2 0.16296234
+3 0.22040011
+4 0.27031788
+5 0.29635945
+6 0.34669021
+7 0.39554869
+8 0.4051092
+9 0.45534508
+10 0.51692463
+11 0.59492563
+12 0.65464071
+13 0.65608586
+14 0.65448444
+15 0.61508537
+16 0.67824269
+17 0.74418531
+18 0.70979761
+19 0.81436209
+20 0.83734273
+21 0.88269087
+22 0.8899537
+23 0.87864251
+24 0.90097681
+25 0.93375623
+26 0.93745169
+27 1.0215491
+28 1.0156696
+29 1.0406827
+30 1.0661142
+31 1.0540359
+32 1.0020536
+33 0.96630852
+34 0.96106469
+35 0.99609553
+36 1.0318317
+37 1.0326354
+38 1.0666889
+39 1.0835787
+40 1.0653338
+41 1.1399381
+42 1.1411515
+43 1.1723806
+44 1.2572874
+45 1.1771651
+46 1.189952
+47 1.1998339
+48 1.1976354
+49 1.2009635
+50 1.2034368
+&

@@ -1,0 +1,2147 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 17 to "Nimbus-Sans-L-Regular-Condensed", "Nimbus-Sans-L-Regular-Condensed"
+@map font 18 to "Nimbus-Sans-L-Bold-Condensed", "Nimbus-Sans-L-Bold-Condensed"
+@map font 19 to "Nimbus-Sans-L-Regular-Condensed-Italic", "Nimbus-Sans-L-Regular-Condensed-Italic"
+@map font 20 to "Nimbus-Sans-L-Bold-Condensed-Italic", "Nimbus-Sans-L-Bold-Condensed-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 29 to "URW-Palladio-L-Roman", "URW-Palladio-L-Roman"
+@map font 30 to "URW-Palladio-L-Bold", "URW-Palladio-L-Bold"
+@map font 31 to "URW-Palladio-L-Italic", "URW-Palladio-L-Italic"
+@map font 32 to "URW-Palladio-L-Bold-Italic", "URW-Palladio-L-Bold-Italic"
+@map font 12 to "Symbol", "Symbol"
+@map font 34 to "URW-Chancery-L-Medium-Italic", "URW-Chancery-L-Medium-Italic"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Tue Feb  7 14:52:44 2023"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world -330, 0, 0, 0.2
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.100000, 0.100000, 0.900000, 0.900000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 100
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel off
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label ""
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.05
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel off
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 15
+@    s0 symbol pattern 1
+@    s0 symbol fill color 15
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 15
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 15
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s0 legend  ""
+@    s1 hidden false
+@    s1 type xy
+@    s1 symbol 0
+@    s1 symbol size 1.000000
+@    s1 symbol color 15
+@    s1 symbol pattern 1
+@    s1 symbol fill color 15
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 15
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 15
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s1 legend  ""
+@    s2 hidden false
+@    s2 type xy
+@    s2 symbol 0
+@    s2 symbol size 1.000000
+@    s2 symbol color 15
+@    s2 symbol pattern 1
+@    s2 symbol fill color 15
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.0
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 1
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 15
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 15
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.0
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.0
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s2 legend  ""
+@    s3 hidden false
+@    s3 type xy
+@    s3 symbol 0
+@    s3 symbol size 1.000000
+@    s3 symbol color 15
+@    s3 symbol pattern 1
+@    s3 symbol fill color 15
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.0
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 1
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 15
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 15
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.0
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.0
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s3 legend  ""
+@    s4 hidden false
+@    s4 type xy
+@    s4 symbol 0
+@    s4 symbol size 1.000000
+@    s4 symbol color 15
+@    s4 symbol pattern 1
+@    s4 symbol fill color 15
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.0
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 1
+@    s4 line linestyle 1
+@    s4 line linewidth 1.0
+@    s4 line color 15
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 15
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.0
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.0
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s4 legend  ""
+@    s5 hidden false
+@    s5 type xy
+@    s5 symbol 0
+@    s5 symbol size 1.000000
+@    s5 symbol color 15
+@    s5 symbol pattern 1
+@    s5 symbol fill color 15
+@    s5 symbol fill pattern 0
+@    s5 symbol linewidth 1.0
+@    s5 symbol linestyle 1
+@    s5 symbol char 65
+@    s5 symbol char font 0
+@    s5 symbol skip 0
+@    s5 line type 1
+@    s5 line linestyle 1
+@    s5 line linewidth 1.0
+@    s5 line color 15
+@    s5 line pattern 1
+@    s5 baseline type 0
+@    s5 baseline off
+@    s5 dropline off
+@    s5 fill type 0
+@    s5 fill rule 0
+@    s5 fill color 1
+@    s5 fill pattern 1
+@    s5 avalue off
+@    s5 avalue type 2
+@    s5 avalue char size 1.000000
+@    s5 avalue font 0
+@    s5 avalue color 1
+@    s5 avalue rot 0
+@    s5 avalue format general
+@    s5 avalue prec 3
+@    s5 avalue prepend ""
+@    s5 avalue append ""
+@    s5 avalue offset 0.000000 , 0.000000
+@    s5 errorbar on
+@    s5 errorbar place both
+@    s5 errorbar color 15
+@    s5 errorbar pattern 1
+@    s5 errorbar size 1.000000
+@    s5 errorbar linewidth 1.0
+@    s5 errorbar linestyle 1
+@    s5 errorbar riser linewidth 1.0
+@    s5 errorbar riser linestyle 1
+@    s5 errorbar riser clip off
+@    s5 errorbar riser clip length 0.100000
+@    s5 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s5 legend  ""
+@    s6 hidden false
+@    s6 type xy
+@    s6 symbol 0
+@    s6 symbol size 1.000000
+@    s6 symbol color 15
+@    s6 symbol pattern 1
+@    s6 symbol fill color 15
+@    s6 symbol fill pattern 0
+@    s6 symbol linewidth 1.0
+@    s6 symbol linestyle 1
+@    s6 symbol char 65
+@    s6 symbol char font 0
+@    s6 symbol skip 0
+@    s6 line type 1
+@    s6 line linestyle 1
+@    s6 line linewidth 1.0
+@    s6 line color 15
+@    s6 line pattern 1
+@    s6 baseline type 0
+@    s6 baseline off
+@    s6 dropline off
+@    s6 fill type 0
+@    s6 fill rule 0
+@    s6 fill color 1
+@    s6 fill pattern 1
+@    s6 avalue off
+@    s6 avalue type 2
+@    s6 avalue char size 1.000000
+@    s6 avalue font 0
+@    s6 avalue color 1
+@    s6 avalue rot 0
+@    s6 avalue format general
+@    s6 avalue prec 3
+@    s6 avalue prepend ""
+@    s6 avalue append ""
+@    s6 avalue offset 0.000000 , 0.000000
+@    s6 errorbar on
+@    s6 errorbar place both
+@    s6 errorbar color 15
+@    s6 errorbar pattern 1
+@    s6 errorbar size 1.000000
+@    s6 errorbar linewidth 1.0
+@    s6 errorbar linestyle 1
+@    s6 errorbar riser linewidth 1.0
+@    s6 errorbar riser linestyle 1
+@    s6 errorbar riser clip off
+@    s6 errorbar riser clip length 0.100000
+@    s6 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s6 legend  ""
+@    s7 hidden false
+@    s7 type xy
+@    s7 symbol 0
+@    s7 symbol size 1.000000
+@    s7 symbol color 15
+@    s7 symbol pattern 1
+@    s7 symbol fill color 15
+@    s7 symbol fill pattern 0
+@    s7 symbol linewidth 1.0
+@    s7 symbol linestyle 1
+@    s7 symbol char 65
+@    s7 symbol char font 0
+@    s7 symbol skip 0
+@    s7 line type 1
+@    s7 line linestyle 1
+@    s7 line linewidth 1.0
+@    s7 line color 15
+@    s7 line pattern 1
+@    s7 baseline type 0
+@    s7 baseline off
+@    s7 dropline off
+@    s7 fill type 0
+@    s7 fill rule 0
+@    s7 fill color 1
+@    s7 fill pattern 1
+@    s7 avalue off
+@    s7 avalue type 2
+@    s7 avalue char size 1.000000
+@    s7 avalue font 0
+@    s7 avalue color 1
+@    s7 avalue rot 0
+@    s7 avalue format general
+@    s7 avalue prec 3
+@    s7 avalue prepend ""
+@    s7 avalue append ""
+@    s7 avalue offset 0.000000 , 0.000000
+@    s7 errorbar on
+@    s7 errorbar place both
+@    s7 errorbar color 15
+@    s7 errorbar pattern 1
+@    s7 errorbar size 1.000000
+@    s7 errorbar linewidth 1.0
+@    s7 errorbar linestyle 1
+@    s7 errorbar riser linewidth 1.0
+@    s7 errorbar riser linestyle 1
+@    s7 errorbar riser clip off
+@    s7 errorbar riser clip length 0.100000
+@    s7 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s7 legend  ""
+@    s8 hidden false
+@    s8 type xy
+@    s8 symbol 0
+@    s8 symbol size 1.000000
+@    s8 symbol color 15
+@    s8 symbol pattern 1
+@    s8 symbol fill color 15
+@    s8 symbol fill pattern 0
+@    s8 symbol linewidth 1.0
+@    s8 symbol linestyle 1
+@    s8 symbol char 65
+@    s8 symbol char font 0
+@    s8 symbol skip 0
+@    s8 line type 1
+@    s8 line linestyle 1
+@    s8 line linewidth 1.0
+@    s8 line color 15
+@    s8 line pattern 1
+@    s8 baseline type 0
+@    s8 baseline off
+@    s8 dropline off
+@    s8 fill type 0
+@    s8 fill rule 0
+@    s8 fill color 1
+@    s8 fill pattern 1
+@    s8 avalue off
+@    s8 avalue type 2
+@    s8 avalue char size 1.000000
+@    s8 avalue font 0
+@    s8 avalue color 1
+@    s8 avalue rot 0
+@    s8 avalue format general
+@    s8 avalue prec 3
+@    s8 avalue prepend ""
+@    s8 avalue append ""
+@    s8 avalue offset 0.000000 , 0.000000
+@    s8 errorbar on
+@    s8 errorbar place both
+@    s8 errorbar color 15
+@    s8 errorbar pattern 1
+@    s8 errorbar size 1.000000
+@    s8 errorbar linewidth 1.0
+@    s8 errorbar linestyle 1
+@    s8 errorbar riser linewidth 1.0
+@    s8 errorbar riser linestyle 1
+@    s8 errorbar riser clip off
+@    s8 errorbar riser clip length 0.100000
+@    s8 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s8 legend  ""
+@    s9 hidden false
+@    s9 type xy
+@    s9 symbol 0
+@    s9 symbol size 1.000000
+@    s9 symbol color 15
+@    s9 symbol pattern 1
+@    s9 symbol fill color 15
+@    s9 symbol fill pattern 0
+@    s9 symbol linewidth 1.0
+@    s9 symbol linestyle 1
+@    s9 symbol char 65
+@    s9 symbol char font 0
+@    s9 symbol skip 0
+@    s9 line type 1
+@    s9 line linestyle 1
+@    s9 line linewidth 1.0
+@    s9 line color 15
+@    s9 line pattern 1
+@    s9 baseline type 0
+@    s9 baseline off
+@    s9 dropline off
+@    s9 fill type 0
+@    s9 fill rule 0
+@    s9 fill color 1
+@    s9 fill pattern 1
+@    s9 avalue off
+@    s9 avalue type 2
+@    s9 avalue char size 1.000000
+@    s9 avalue font 0
+@    s9 avalue color 1
+@    s9 avalue rot 0
+@    s9 avalue format general
+@    s9 avalue prec 3
+@    s9 avalue prepend ""
+@    s9 avalue append ""
+@    s9 avalue offset 0.000000 , 0.000000
+@    s9 errorbar on
+@    s9 errorbar place both
+@    s9 errorbar color 15
+@    s9 errorbar pattern 1
+@    s9 errorbar size 1.000000
+@    s9 errorbar linewidth 1.0
+@    s9 errorbar linestyle 1
+@    s9 errorbar riser linewidth 1.0
+@    s9 errorbar riser linestyle 1
+@    s9 errorbar riser clip off
+@    s9 errorbar riser clip length 0.100000
+@    s9 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAll.dat"
+@    s9 legend  ""
+@    s10 hidden false
+@    s10 type xy
+@    s10 symbol 0
+@    s10 symbol size 1.000000
+@    s10 symbol color 11
+@    s10 symbol pattern 1
+@    s10 symbol fill color 11
+@    s10 symbol fill pattern 0
+@    s10 symbol linewidth 1.0
+@    s10 symbol linestyle 1
+@    s10 symbol char 65
+@    s10 symbol char font 0
+@    s10 symbol skip 0
+@    s10 line type 1
+@    s10 line linestyle 1
+@    s10 line linewidth 1.0
+@    s10 line color 11
+@    s10 line pattern 1
+@    s10 baseline type 0
+@    s10 baseline off
+@    s10 dropline off
+@    s10 fill type 0
+@    s10 fill rule 0
+@    s10 fill color 1
+@    s10 fill pattern 1
+@    s10 avalue off
+@    s10 avalue type 2
+@    s10 avalue char size 1.000000
+@    s10 avalue font 0
+@    s10 avalue color 1
+@    s10 avalue rot 0
+@    s10 avalue format general
+@    s10 avalue prec 3
+@    s10 avalue prepend ""
+@    s10 avalue append ""
+@    s10 avalue offset 0.000000 , 0.000000
+@    s10 errorbar on
+@    s10 errorbar place both
+@    s10 errorbar color 11
+@    s10 errorbar pattern 1
+@    s10 errorbar size 1.000000
+@    s10 errorbar linewidth 1.0
+@    s10 errorbar linestyle 1
+@    s10 errorbar riser linewidth 1.0
+@    s10 errorbar riser linestyle 1
+@    s10 errorbar riser clip off
+@    s10 errorbar riser clip length 0.100000
+@    s10 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s10 legend  ""
+@    s11 hidden false
+@    s11 type xy
+@    s11 symbol 0
+@    s11 symbol size 1.000000
+@    s11 symbol color 11
+@    s11 symbol pattern 1
+@    s11 symbol fill color 11
+@    s11 symbol fill pattern 0
+@    s11 symbol linewidth 1.0
+@    s11 symbol linestyle 1
+@    s11 symbol char 65
+@    s11 symbol char font 0
+@    s11 symbol skip 0
+@    s11 line type 1
+@    s11 line linestyle 1
+@    s11 line linewidth 1.0
+@    s11 line color 11
+@    s11 line pattern 1
+@    s11 baseline type 0
+@    s11 baseline off
+@    s11 dropline off
+@    s11 fill type 0
+@    s11 fill rule 0
+@    s11 fill color 1
+@    s11 fill pattern 1
+@    s11 avalue off
+@    s11 avalue type 2
+@    s11 avalue char size 1.000000
+@    s11 avalue font 0
+@    s11 avalue color 1
+@    s11 avalue rot 0
+@    s11 avalue format general
+@    s11 avalue prec 3
+@    s11 avalue prepend ""
+@    s11 avalue append ""
+@    s11 avalue offset 0.000000 , 0.000000
+@    s11 errorbar on
+@    s11 errorbar place both
+@    s11 errorbar color 11
+@    s11 errorbar pattern 1
+@    s11 errorbar size 1.000000
+@    s11 errorbar linewidth 1.0
+@    s11 errorbar linestyle 1
+@    s11 errorbar riser linewidth 1.0
+@    s11 errorbar riser linestyle 1
+@    s11 errorbar riser clip off
+@    s11 errorbar riser clip length 0.100000
+@    s11 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s11 legend  ""
+@    s12 hidden false
+@    s12 type xy
+@    s12 symbol 0
+@    s12 symbol size 1.000000
+@    s12 symbol color 11
+@    s12 symbol pattern 1
+@    s12 symbol fill color 11
+@    s12 symbol fill pattern 0
+@    s12 symbol linewidth 1.0
+@    s12 symbol linestyle 1
+@    s12 symbol char 65
+@    s12 symbol char font 0
+@    s12 symbol skip 0
+@    s12 line type 1
+@    s12 line linestyle 1
+@    s12 line linewidth 1.0
+@    s12 line color 11
+@    s12 line pattern 1
+@    s12 baseline type 0
+@    s12 baseline off
+@    s12 dropline off
+@    s12 fill type 0
+@    s12 fill rule 0
+@    s12 fill color 1
+@    s12 fill pattern 1
+@    s12 avalue off
+@    s12 avalue type 2
+@    s12 avalue char size 1.000000
+@    s12 avalue font 0
+@    s12 avalue color 1
+@    s12 avalue rot 0
+@    s12 avalue format general
+@    s12 avalue prec 3
+@    s12 avalue prepend ""
+@    s12 avalue append ""
+@    s12 avalue offset 0.000000 , 0.000000
+@    s12 errorbar on
+@    s12 errorbar place both
+@    s12 errorbar color 11
+@    s12 errorbar pattern 1
+@    s12 errorbar size 1.000000
+@    s12 errorbar linewidth 1.0
+@    s12 errorbar linestyle 1
+@    s12 errorbar riser linewidth 1.0
+@    s12 errorbar riser linestyle 1
+@    s12 errorbar riser clip off
+@    s12 errorbar riser clip length 0.100000
+@    s12 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s12 legend  ""
+@    s13 hidden false
+@    s13 type xy
+@    s13 symbol 0
+@    s13 symbol size 1.000000
+@    s13 symbol color 11
+@    s13 symbol pattern 1
+@    s13 symbol fill color 11
+@    s13 symbol fill pattern 0
+@    s13 symbol linewidth 1.0
+@    s13 symbol linestyle 1
+@    s13 symbol char 65
+@    s13 symbol char font 0
+@    s13 symbol skip 0
+@    s13 line type 1
+@    s13 line linestyle 1
+@    s13 line linewidth 1.0
+@    s13 line color 11
+@    s13 line pattern 1
+@    s13 baseline type 0
+@    s13 baseline off
+@    s13 dropline off
+@    s13 fill type 0
+@    s13 fill rule 0
+@    s13 fill color 1
+@    s13 fill pattern 1
+@    s13 avalue off
+@    s13 avalue type 2
+@    s13 avalue char size 1.000000
+@    s13 avalue font 0
+@    s13 avalue color 1
+@    s13 avalue rot 0
+@    s13 avalue format general
+@    s13 avalue prec 3
+@    s13 avalue prepend ""
+@    s13 avalue append ""
+@    s13 avalue offset 0.000000 , 0.000000
+@    s13 errorbar on
+@    s13 errorbar place both
+@    s13 errorbar color 11
+@    s13 errorbar pattern 1
+@    s13 errorbar size 1.000000
+@    s13 errorbar linewidth 1.0
+@    s13 errorbar linestyle 1
+@    s13 errorbar riser linewidth 1.0
+@    s13 errorbar riser linestyle 1
+@    s13 errorbar riser clip off
+@    s13 errorbar riser clip length 0.100000
+@    s13 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s13 legend  ""
+@    s14 hidden false
+@    s14 type xy
+@    s14 symbol 0
+@    s14 symbol size 1.000000
+@    s14 symbol color 11
+@    s14 symbol pattern 1
+@    s14 symbol fill color 11
+@    s14 symbol fill pattern 0
+@    s14 symbol linewidth 1.0
+@    s14 symbol linestyle 1
+@    s14 symbol char 65
+@    s14 symbol char font 0
+@    s14 symbol skip 0
+@    s14 line type 1
+@    s14 line linestyle 1
+@    s14 line linewidth 1.0
+@    s14 line color 11
+@    s14 line pattern 1
+@    s14 baseline type 0
+@    s14 baseline off
+@    s14 dropline off
+@    s14 fill type 0
+@    s14 fill rule 0
+@    s14 fill color 1
+@    s14 fill pattern 1
+@    s14 avalue off
+@    s14 avalue type 2
+@    s14 avalue char size 1.000000
+@    s14 avalue font 0
+@    s14 avalue color 1
+@    s14 avalue rot 0
+@    s14 avalue format general
+@    s14 avalue prec 3
+@    s14 avalue prepend ""
+@    s14 avalue append ""
+@    s14 avalue offset 0.000000 , 0.000000
+@    s14 errorbar on
+@    s14 errorbar place both
+@    s14 errorbar color 11
+@    s14 errorbar pattern 1
+@    s14 errorbar size 1.000000
+@    s14 errorbar linewidth 1.0
+@    s14 errorbar linestyle 1
+@    s14 errorbar riser linewidth 1.0
+@    s14 errorbar riser linestyle 1
+@    s14 errorbar riser clip off
+@    s14 errorbar riser clip length 0.100000
+@    s14 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s14 legend  ""
+@    s15 hidden false
+@    s15 type xy
+@    s15 symbol 0
+@    s15 symbol size 1.000000
+@    s15 symbol color 11
+@    s15 symbol pattern 1
+@    s15 symbol fill color 11
+@    s15 symbol fill pattern 0
+@    s15 symbol linewidth 1.0
+@    s15 symbol linestyle 1
+@    s15 symbol char 65
+@    s15 symbol char font 0
+@    s15 symbol skip 0
+@    s15 line type 1
+@    s15 line linestyle 1
+@    s15 line linewidth 1.0
+@    s15 line color 11
+@    s15 line pattern 1
+@    s15 baseline type 0
+@    s15 baseline off
+@    s15 dropline off
+@    s15 fill type 0
+@    s15 fill rule 0
+@    s15 fill color 1
+@    s15 fill pattern 1
+@    s15 avalue off
+@    s15 avalue type 2
+@    s15 avalue char size 1.000000
+@    s15 avalue font 0
+@    s15 avalue color 1
+@    s15 avalue rot 0
+@    s15 avalue format general
+@    s15 avalue prec 3
+@    s15 avalue prepend ""
+@    s15 avalue append ""
+@    s15 avalue offset 0.000000 , 0.000000
+@    s15 errorbar on
+@    s15 errorbar place both
+@    s15 errorbar color 11
+@    s15 errorbar pattern 1
+@    s15 errorbar size 1.000000
+@    s15 errorbar linewidth 1.0
+@    s15 errorbar linestyle 1
+@    s15 errorbar riser linewidth 1.0
+@    s15 errorbar riser linestyle 1
+@    s15 errorbar riser clip off
+@    s15 errorbar riser clip length 0.100000
+@    s15 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s15 legend  ""
+@    s16 hidden false
+@    s16 type xy
+@    s16 symbol 0
+@    s16 symbol size 1.000000
+@    s16 symbol color 11
+@    s16 symbol pattern 1
+@    s16 symbol fill color 11
+@    s16 symbol fill pattern 0
+@    s16 symbol linewidth 1.0
+@    s16 symbol linestyle 1
+@    s16 symbol char 65
+@    s16 symbol char font 0
+@    s16 symbol skip 0
+@    s16 line type 1
+@    s16 line linestyle 1
+@    s16 line linewidth 1.0
+@    s16 line color 11
+@    s16 line pattern 1
+@    s16 baseline type 0
+@    s16 baseline off
+@    s16 dropline off
+@    s16 fill type 0
+@    s16 fill rule 0
+@    s16 fill color 1
+@    s16 fill pattern 1
+@    s16 avalue off
+@    s16 avalue type 2
+@    s16 avalue char size 1.000000
+@    s16 avalue font 0
+@    s16 avalue color 1
+@    s16 avalue rot 0
+@    s16 avalue format general
+@    s16 avalue prec 3
+@    s16 avalue prepend ""
+@    s16 avalue append ""
+@    s16 avalue offset 0.000000 , 0.000000
+@    s16 errorbar on
+@    s16 errorbar place both
+@    s16 errorbar color 11
+@    s16 errorbar pattern 1
+@    s16 errorbar size 1.000000
+@    s16 errorbar linewidth 1.0
+@    s16 errorbar linestyle 1
+@    s16 errorbar riser linewidth 1.0
+@    s16 errorbar riser linestyle 1
+@    s16 errorbar riser clip off
+@    s16 errorbar riser clip length 0.100000
+@    s16 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s16 legend  ""
+@    s17 hidden false
+@    s17 type xy
+@    s17 symbol 0
+@    s17 symbol size 1.000000
+@    s17 symbol color 11
+@    s17 symbol pattern 1
+@    s17 symbol fill color 11
+@    s17 symbol fill pattern 0
+@    s17 symbol linewidth 1.0
+@    s17 symbol linestyle 1
+@    s17 symbol char 65
+@    s17 symbol char font 0
+@    s17 symbol skip 0
+@    s17 line type 1
+@    s17 line linestyle 1
+@    s17 line linewidth 1.0
+@    s17 line color 11
+@    s17 line pattern 1
+@    s17 baseline type 0
+@    s17 baseline off
+@    s17 dropline off
+@    s17 fill type 0
+@    s17 fill rule 0
+@    s17 fill color 1
+@    s17 fill pattern 1
+@    s17 avalue off
+@    s17 avalue type 2
+@    s17 avalue char size 1.000000
+@    s17 avalue font 0
+@    s17 avalue color 1
+@    s17 avalue rot 0
+@    s17 avalue format general
+@    s17 avalue prec 3
+@    s17 avalue prepend ""
+@    s17 avalue append ""
+@    s17 avalue offset 0.000000 , 0.000000
+@    s17 errorbar on
+@    s17 errorbar place both
+@    s17 errorbar color 11
+@    s17 errorbar pattern 1
+@    s17 errorbar size 1.000000
+@    s17 errorbar linewidth 1.0
+@    s17 errorbar linestyle 1
+@    s17 errorbar riser linewidth 1.0
+@    s17 errorbar riser linestyle 1
+@    s17 errorbar riser clip off
+@    s17 errorbar riser clip length 0.100000
+@    s17 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s17 legend  ""
+@    s18 hidden false
+@    s18 type xy
+@    s18 symbol 0
+@    s18 symbol size 1.000000
+@    s18 symbol color 11
+@    s18 symbol pattern 1
+@    s18 symbol fill color 11
+@    s18 symbol fill pattern 0
+@    s18 symbol linewidth 1.0
+@    s18 symbol linestyle 1
+@    s18 symbol char 65
+@    s18 symbol char font 0
+@    s18 symbol skip 0
+@    s18 line type 1
+@    s18 line linestyle 1
+@    s18 line linewidth 1.0
+@    s18 line color 11
+@    s18 line pattern 1
+@    s18 baseline type 0
+@    s18 baseline off
+@    s18 dropline off
+@    s18 fill type 0
+@    s18 fill rule 0
+@    s18 fill color 1
+@    s18 fill pattern 1
+@    s18 avalue off
+@    s18 avalue type 2
+@    s18 avalue char size 1.000000
+@    s18 avalue font 0
+@    s18 avalue color 1
+@    s18 avalue rot 0
+@    s18 avalue format general
+@    s18 avalue prec 3
+@    s18 avalue prepend ""
+@    s18 avalue append ""
+@    s18 avalue offset 0.000000 , 0.000000
+@    s18 errorbar on
+@    s18 errorbar place both
+@    s18 errorbar color 11
+@    s18 errorbar pattern 1
+@    s18 errorbar size 1.000000
+@    s18 errorbar linewidth 1.0
+@    s18 errorbar linestyle 1
+@    s18 errorbar riser linewidth 1.0
+@    s18 errorbar riser linestyle 1
+@    s18 errorbar riser clip off
+@    s18 errorbar riser clip length 0.100000
+@    s18 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s18 legend  ""
+@    s19 hidden false
+@    s19 type xy
+@    s19 symbol 0
+@    s19 symbol size 1.000000
+@    s19 symbol color 11
+@    s19 symbol pattern 1
+@    s19 symbol fill color 11
+@    s19 symbol fill pattern 0
+@    s19 symbol linewidth 1.0
+@    s19 symbol linestyle 1
+@    s19 symbol char 65
+@    s19 symbol char font 0
+@    s19 symbol skip 0
+@    s19 line type 1
+@    s19 line linestyle 1
+@    s19 line linewidth 1.0
+@    s19 line color 11
+@    s19 line pattern 1
+@    s19 baseline type 0
+@    s19 baseline off
+@    s19 dropline off
+@    s19 fill type 0
+@    s19 fill rule 0
+@    s19 fill color 1
+@    s19 fill pattern 1
+@    s19 avalue off
+@    s19 avalue type 2
+@    s19 avalue char size 1.000000
+@    s19 avalue font 0
+@    s19 avalue color 1
+@    s19 avalue rot 0
+@    s19 avalue format general
+@    s19 avalue prec 3
+@    s19 avalue prepend ""
+@    s19 avalue append ""
+@    s19 avalue offset 0.000000 , 0.000000
+@    s19 errorbar on
+@    s19 errorbar place both
+@    s19 errorbar color 11
+@    s19 errorbar pattern 1
+@    s19 errorbar size 1.000000
+@    s19 errorbar linewidth 1.0
+@    s19 errorbar linestyle 1
+@    s19 errorbar riser linewidth 1.0
+@    s19 errorbar riser linestyle 1
+@    s19 errorbar riser clip off
+@    s19 errorbar riser clip length 0.100000
+@    s19 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAll.dat"
+@    s19 legend  ""
+@    s20 hidden false
+@    s20 type xy
+@    s20 symbol 0
+@    s20 symbol size 1.000000
+@    s20 symbol color 15
+@    s20 symbol pattern 1
+@    s20 symbol fill color 15
+@    s20 symbol fill pattern 0
+@    s20 symbol linewidth 1.0
+@    s20 symbol linestyle 1
+@    s20 symbol char 65
+@    s20 symbol char font 0
+@    s20 symbol skip 0
+@    s20 line type 1
+@    s20 line linestyle 1
+@    s20 line linewidth 10.0
+@    s20 line color 15
+@    s20 line pattern 1
+@    s20 baseline type 0
+@    s20 baseline off
+@    s20 dropline off
+@    s20 fill type 0
+@    s20 fill rule 0
+@    s20 fill color 1
+@    s20 fill pattern 1
+@    s20 avalue off
+@    s20 avalue type 2
+@    s20 avalue char size 1.000000
+@    s20 avalue font 0
+@    s20 avalue color 1
+@    s20 avalue rot 0
+@    s20 avalue format general
+@    s20 avalue prec 3
+@    s20 avalue prepend ""
+@    s20 avalue append ""
+@    s20 avalue offset 0.000000 , 0.000000
+@    s20 errorbar on
+@    s20 errorbar place both
+@    s20 errorbar color 15
+@    s20 errorbar pattern 1
+@    s20 errorbar size 1.000000
+@    s20 errorbar linewidth 1.0
+@    s20 errorbar linestyle 1
+@    s20 errorbar riser linewidth 1.0
+@    s20 errorbar riser linestyle 1
+@    s20 errorbar riser clip off
+@    s20 errorbar riser clip length 0.100000
+@    s20 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LaggingAvg.dat"
+@    s20 legend  ""
+@    s21 hidden false
+@    s21 type xy
+@    s21 symbol 0
+@    s21 symbol size 1.000000
+@    s21 symbol color 11
+@    s21 symbol pattern 1
+@    s21 symbol fill color 11
+@    s21 symbol fill pattern 0
+@    s21 symbol linewidth 1.0
+@    s21 symbol linestyle 1
+@    s21 symbol char 65
+@    s21 symbol char font 0
+@    s21 symbol skip 0
+@    s21 line type 1
+@    s21 line linestyle 1
+@    s21 line linewidth 10.0
+@    s21 line color 11
+@    s21 line pattern 1
+@    s21 baseline type 0
+@    s21 baseline off
+@    s21 dropline off
+@    s21 fill type 0
+@    s21 fill rule 0
+@    s21 fill color 1
+@    s21 fill pattern 1
+@    s21 avalue off
+@    s21 avalue type 2
+@    s21 avalue char size 1.000000
+@    s21 avalue font 0
+@    s21 avalue color 1
+@    s21 avalue rot 0
+@    s21 avalue format general
+@    s21 avalue prec 3
+@    s21 avalue prepend ""
+@    s21 avalue append ""
+@    s21 avalue offset 0.000000 , 0.000000
+@    s21 errorbar on
+@    s21 errorbar place both
+@    s21 errorbar color 11
+@    s21 errorbar pattern 1
+@    s21 errorbar size 1.000000
+@    s21 errorbar linewidth 1.0
+@    s21 errorbar linestyle 1
+@    s21 errorbar riser linewidth 1.0
+@    s21 errorbar riser linestyle 1
+@    s21 errorbar riser clip off
+@    s21 errorbar riser clip length 0.100000
+@    s21 comment "/home/plourde/Documents/MATLAB/GRACE/Fig2 - Recruitment Microscopy/LeadingAvg.dat"
+@    s21 legend  ""
+@target G0.S0
+@type xy
+-330 0.038427391
+-320 0.029140453
+-310 0.037220904
+-300 0.031103674
+-290 0.035887269
+-280 0.037304816
+-270 0.043384663
+-260 0.037748457
+-250 0.038819769
+-240 0.043377411
+-230 0.055405524
+-220 0.05638169
+-210 0.053383786
+-200 0.068070713
+-190 0.05800016
+-180 0.070413248
+-170 0.073923833
+-160 0.061951094
+-150 0.080266929
+-140 0.077905348
+-130 0.077169812
+-120 0.080956194
+-110 0.080232732
+-100 0.088594532
+-90 0.094333847
+-80 0.099403632
+-70 0.10263771
+-60 0.10440913
+-50 0.10630684
+-40 0.10478255
+-30 0.11418056
+-20 0.11885511
+-10 0.12451948
+0 0.12629876
+&
+@target G0.S1
+@type xy
+-330 0.045712277
+-320 0.040772088
+-310 0.042682776
+-300 0.038634377
+-290 0.045441711
+-280 0.045727487
+-270 0.047192449
+-260 0.058820319
+-250 0.059160044
+-240 0.069772871
+-230 0.071788023
+-220 0.059365643
+-210 0.08316553
+-200 0.082310247
+-190 0.085881975
+-180 0.1072193
+-170 0.097278967
+-160 0.10355695
+-150 0.10594173
+-140 0.12009098
+-130 0.11917055
+-120 0.12282209
+-110 0.11023523
+-100 0.11544205
+-90 0.12313696
+-80 0.13297689
+-70 0.13500125
+-60 0.141055
+-50 0.13372937
+-40 0.15289433
+-30 0.15119994
+-20 0.15478423
+-10 0.15718713
+0 0.16913661
+&
+@target G0.S2
+@type xy
+-330 0.031693707
+-320 0.039541755
+-310 0.041245318
+-300 0.048860989
+-290 0.051125014
+-280 0.044588418
+-270 0.044951355
+-260 0.052918742
+-250 0.041400103
+-240 0.048634587
+-230 0.054105804
+-220 0.065089559
+-210 0.05249597
+-200 0.066669756
+-190 0.087730599
+-180 0.072963348
+-170 0.078989879
+-160 0.081567171
+-150 0.079555093
+-140 0.10560217
+-130 0.091417659
+-120 0.091557989
+-110 0.10264287
+-100 0.098009866
+-90 0.10422283
+-80 0.09830574
+-70 0.10351669
+-60 0.098220757
+-50 0.10575603
+-40 0.10665062
+-30 0.11109547
+-20 0.1125088
+-10 0.11817243
+0 0.11382246
+&
+@target G0.S3
+@type xy
+-330 0.038331703
+-320 0.03862922
+-310 0.043880926
+-300 0.049680175
+-290 0.044521861
+-280 0.044627838
+-270 0.055955351
+-260 0.049388756
+-250 0.050628663
+-240 0.044038151
+-230 0.047229512
+-220 0.061549905
+-210 0.048320865
+-200 0.0597932
+-190 0.05004735
+-180 0.06117579
+-170 0.062465829
+-160 0.066823731
+-150 0.063280418
+-140 0.065241818
+-130 0.063433455
+-120 0.067574147
+-110 0.074893729
+-100 0.072127867
+-90 0.075375551
+-80 0.073716243
+-70 0.081364179
+-60 0.081637188
+-50 0.085386241
+-40 0.082543075
+-30 0.084784993
+-20 0.093425018
+-10 0.097316777
+0 0.089270513
+&
+@target G0.S4
+@type xy
+-330 0.055087655
+-320 0.039768669
+-310 0.057165643
+-300 0.056772393
+-290 0.069721566
+-280 0.068375755
+-270 0.076177758
+-260 0.062159829
+-250 0.097110002
+-240 0.081656099
+-230 0.10874917
+-220 0.090516367
+-210 0.11439491
+-200 0.10851601
+-190 0.11273056
+-180 0.10687775
+-170 0.13710265
+-160 0.15208806
+-150 0.1456335
+-140 0.14421946
+-130 0.14692312
+-120 0.15559572
+-110 0.16304355
+-100 0.17058202
+-90 0.1647027
+-80 0.16065606
+-70 0.13698863
+-60 0.14922119
+-50 0.14174745
+-40 0.13282338
+-30 0.13466238
+-20 0.14103714
+-10 0.13723225
+0 0.14254792
+&
+@target G0.S5
+@type xy
+-330 0.055537137
+-320 0.056655252
+-310 0.055267058
+-300 0.064064315
+-290 0.055038868
+-280 0.06030281
+-270 0.060897061
+-260 0.060333081
+-250 0.059008039
+-240 0.055137212
+-230 0.063999835
+-220 0.069154456
+-210 0.061060722
+-200 0.076316329
+-190 0.07852086
+-180 0.088516414
+-170 0.089860013
+-160 0.081677089
+-150 0.078566883
+-140 0.093545865
+-130 0.083453739
+-120 0.10200512
+-110 0.10138212
+-100 0.10006294
+-90 0.094886658
+-80 0.098000064
+-70 0.11757594
+-60 0.11281558
+-50 0.12297101
+-40 0.11761015
+-30 0.10632681
+-20 0.11697214
+-10 0.11796582
+0 0.12614811
+&
+@target G0.S6
+@type xy
+-330 0.03552187
+-320 0.03984475
+-310 0.037693272
+-300 0.032725296
+-290 0.035804966
+-280 0.030742744
+-270 0.042353246
+-260 0.040672719
+-250 0.039411657
+-240 0.03684486
+-230 0.041498258
+-220 0.042437967
+-210 0.03936292
+-200 0.048062517
+-190 0.050091654
+-180 0.053741741
+-170 0.048122651
+-160 0.058452444
+-150 0.049662785
+-140 0.061178163
+-130 0.060839994
+-120 0.067934979
+-110 0.066444419
+-100 0.063035506
+-90 0.05737278
+-80 0.067579076
+-70 0.06624724
+-60 0.055598127
+-50 0.055661688
+-40 0.059437742
+-30 0.052974862
+-20 0.062824897
+-10 0.062471505
+0 0.063226827
+&
+@target G0.S7
+@type xy
+-330 0.055196656
+-320 0.040887552
+-310 0.045823623
+-300 0.042769503
+-290 0.043145067
+-280 0.041930324
+-270 0.047950467
+-260 0.05692467
+-250 0.045815926
+-240 0.056883722
+-230 0.06095638
+-220 0.064279758
+-210 0.067915453
+-200 0.073220358
+-190 0.062361741
+-180 0.070547344
+-170 0.072550115
+-160 0.058927792
+-150 0.073252201
+-140 0.069573184
+-130 0.077396418
+-120 0.079586201
+-110 0.080763075
+-100 0.081856558
+-90 0.08878933
+-80 0.095691315
+-70 0.086102946
+-60 0.090753704
+-50 0.078062176
+-40 0.09498074
+-30 0.097563942
+-20 0.098629365
+-10 0.097020807
+0 0.09911616
+&
+@target G0.S8
+@type xy
+-330 0.048902026
+-320 0.050273942
+-310 0.048307207
+-300 0.057083354
+-290 0.048336932
+-280 0.053661627
+-270 0.054251609
+-260 0.054581512
+-250 0.052903927
+-240 0.048719836
+-230 0.057998226
+-220 0.062775131
+-210 0.054119412
+-200 0.068049832
+-190 0.07032568
+-180 0.078863803
+-170 0.077783042
+-160 0.07224264
+-150 0.084565649
+-140 0.074981895
+-130 0.089801602
+-120 0.091251668
+-110 0.091192478
+-100 0.093529477
+-90 0.093955139
+-80 0.093070646
+-70 0.099626953
+-60 0.10893097
+-50 0.10395422
+-40 0.09199991
+-30 0.10192677
+-20 0.10401158
+-10 0.10567078
+0 0.11111272
+&
+@target G0.S9
+@type xy
+-330 0.03516798
+-320 0.035691766
+-310 0.040948185
+-300 0.032989668
+-290 0.038027075
+-280 0.035553663
+-270 0.041133478
+-260 0.039115538
+-250 0.048473498
+-240 0.055211717
+-230 0.053906863
+-220 0.05573258
+-210 0.050821403
+-200 0.050245908
+-190 0.061363893
+-180 0.060720235
+-170 0.060301014
+-160 0.058274064
+-150 0.069151913
+-140 0.065777018
+-130 0.074757011
+-120 0.07563514
+-110 0.075017939
+-100 0.085745903
+-90 0.085331141
+-80 0.08061927
+-70 0.083006499
+-60 0.084181627
+-50 0.088735115
+-40 0.093243402
+-30 0.095344994
+-20 0.088406687
+-10 0.096471938
+0 0.096710537
+&
+@target G0.S10
+@type xy
+-330 0.033114092
+-320 0.038381422
+-310 0.044404819
+-300 0.037921769
+-290 0.043703416
+-280 0.036798397
+-270 0.040314879
+-260 0.048133243
+-250 0.054662908
+-240 0.049424201
+-230 0.05208592
+-220 0.061127644
+-210 0.052016599
+-200 0.057760541
+-190 0.061053438
+-180 0.060653894
+-170 0.060491386
+-160 0.063068138
+-150 0.062466595
+-140 0.070576982
+-130 0.081449657
+-120 0.062598241
+-110 0.086511135
+-100 0.088048083
+-90 0.093184951
+-80 0.097201782
+-70 0.091333189
+-60 0.095833541
+-50 0.099758067
+-40 0.11262732
+-30 0.10127709
+-20 0.11780854
+-10 0.12405996
+0 0.12280869
+&
+@target G0.S11
+@type xy
+-330 0.044027686
+-320 0.042898846
+-310 0.044907215
+-300 0.054825152
+-290 0.048668702
+-280 0.05241321
+-270 0.051762705
+-260 0.061535017
+-250 0.063835691
+-240 0.07046776
+-230 0.071611283
+-220 0.075564866
+-210 0.072732644
+-200 0.085933333
+-190 0.08726575
+-180 0.088512663
+-170 0.092890612
+-160 0.098929643
+-150 0.10683152
+-140 0.10909434
+-130 0.10288746
+-120 0.12587921
+-110 0.13208963
+-100 0.11727859
+-90 0.11876415
+-80 0.12311566
+-70 0.12440028
+-60 0.1233502
+-50 0.13053036
+-40 0.13966398
+-30 0.12346649
+-20 0.12667176
+-10 0.15064813
+0 0.13541028
+&
+@target G0.S12
+@type xy
+-330 0.036543803
+-320 0.035093639
+-310 0.032667865
+-300 0.032090671
+-290 0.031064236
+-280 0.03129176
+-270 0.031914565
+-260 0.032416149
+-250 0.041714096
+-240 0.045193863
+-230 0.04588274
+-220 0.058557418
+-210 0.062826425
+-200 0.063159263
+-190 0.065527314
+-180 0.070283779
+-170 0.065790515
+-160 0.079052585
+-150 0.077126481
+-140 0.085859346
+-130 0.076985524
+-120 0.080481825
+-110 0.085127036
+-100 0.081773738
+-90 0.077064897
+-80 0.10499696
+-70 0.11275979
+-60 0.091425184
+-50 0.088215978
+-40 0.092970166
+-30 0.09922135
+-20 0.103839
+-10 0.10174204
+0 0.095419702
+&
+@target G0.S13
+@type xy
+-330 0.050293188
+-320 0.047014623
+-310 0.046782599
+-300 0.054930834
+-290 0.046424139
+-280 0.053313626
+-270 0.053638132
+-260 0.040842465
+-250 0.051330699
+-240 0.046688569
+-230 0.057407689
+-220 0.049745099
+-210 0.056827742
+-200 0.06306785
+-190 0.055815786
+-180 0.060971642
+-170 0.058794989
+-160 0.062450355
+-150 0.067941663
+-140 0.064431666
+-130 0.074999205
+-120 0.076059678
+-110 0.078586506
+-100 0.083182963
+-90 0.083612491
+-80 0.084731265
+-70 0.084740732
+-60 0.1048102
+-50 0.084061794
+-40 0.082773939
+-30 0.084399454
+-20 0.094516348
+-10 0.10136817
+0 0.098510989
+&
+@target G0.S14
+@type xy
+-330 0.031368426
+-320 0.029519558
+-310 0.033857138
+-300 0.033761507
+-290 0.041297213
+-280 0.03550996
+-270 0.057678179
+-260 0.049465036
+-250 0.044349604
+-240 0.05556239
+-230 0.040067032
+-220 0.051786499
+-210 0.048100444
+-200 0.061070835
+-190 0.052708095
+-180 0.058447592
+-170 0.072796781
+-160 0.062332903
+-150 0.068827935
+-140 0.070124178
+-130 0.074937859
+-120 0.078598001
+-110 0.10246644
+-100 0.098088328
+-90 0.098665529
+-80 0.11340529
+-70 0.12681532
+-60 0.13135486
+-50 0.14801574
+-40 0.12578511
+-30 0.14754222
+-20 0.15413523
+-10 0.14819071
+0 0.15035458
+&
+@target G0.S15
+@type xy
+-330 0.021813188
+-320 0.022675204
+-310 0.0250147
+-300 0.028809283
+-290 0.034200856
+-280 0.029723227
+-270 0.026552379
+-260 0.030957653
+-250 0.029883295
+-240 0.036279282
+-230 0.038754089
+-220 0.04340163
+-210 0.055440712
+-200 0.056547162
+-190 0.063592133
+-180 0.067977373
+-170 0.068700486
+-160 0.074401909
+-150 0.072979605
+-140 0.080716335
+-130 0.077183316
+-120 0.073374164
+-110 0.075033617
+-100 0.080876354
+-90 0.097118458
+-80 0.090215047
+-70 0.097200757
+-60 0.11554339
+-50 0.11126742
+-40 0.11942568
+-30 0.11705749
+-20 0.12604179
+-10 0.12205928
+0 0.13010143
+&
+@target G0.S16
+@type xy
+-330 0.02468554
+-320 0.029562698
+-310 0.02956748
+-300 0.029825271
+-290 0.031514047
+-280 0.035992343
+-270 0.036038728
+-260 0.031421873
+-250 0.040955497
+-240 0.035049285
+-230 0.036116396
+-220 0.043433547
+-210 0.040102302
+-200 0.042690459
+-190 0.040705197
+-180 0.050467442
+-170 0.059554742
+-160 0.058076934
+-150 0.061466839
+-140 0.057413905
+-130 0.061051519
+-120 0.055851814
+-110 0.055121557
+-100 0.065046909
+-90 0.057277856
+-80 0.06061213
+-70 0.066337301
+-60 0.063818524
+-50 0.072888091
+-40 0.056134113
+-30 0.052216511
+-20 0.058611645
+-10 0.061743081
+0 0.065329049
+&
+@target G0.S17
+@type xy
+-330 0.027735662
+-320 0.029449998
+-310 0.023566947
+-300 0.025057898
+-290 0.027330411
+-280 0.024779491
+-270 0.026313632
+-260 0.03182191
+-250 0.030905718
+-240 0.029809376
+-230 0.034419979
+-220 0.036663288
+-210 0.044749359
+-200 0.043466004
+-190 0.069974037
+-180 0.044307339
+-170 0.061151617
+-160 0.055485926
+-150 0.054246861
+-140 0.06294921
+-130 0.065563333
+-120 0.061885283
+-110 0.074202084
+-100 0.061919545
+-90 0.079416386
+-80 0.073327323
+-70 0.094063932
+-60 0.088842373
+-50 0.089565131
+-40 0.1029408
+-30 0.095956703
+-20 0.11330713
+-10 0.11354146
+0 0.11337033
+&
+@target G0.S18
+@type xy
+-330 0.020072572
+-320 0.020055574
+-310 0.022185975
+-300 0.025892972
+-290 0.030232229
+-280 0.026613363
+-270 0.023059004
+-260 0.026634589
+-250 0.028474576
+-240 0.032269356
+-230 0.042097583
+-220 0.038681741
+-210 0.049108842
+-200 0.050393499
+-190 0.05653722
+-180 0.060670968
+-170 0.059301406
+-160 0.066132654
+-150 0.064413663
+-140 0.072572282
+-130 0.069029386
+-120 0.065422942
+-110 0.068001626
+-100 0.071788255
+-90 0.086062744
+-80 0.080094413
+-70 0.086502876
+-60 0.10268243
+-50 0.098670064
+-40 0.10607447
+-30 0.099294174
+-20 0.11158057
+-10 0.10791472
+0 0.11412055
+&
+@target G0.S19
+@type xy
+-330 0.045469581
+-320 0.052728632
+-310 0.044955046
+-300 0.062490476
+-290 0.054765044
+-280 0.05616744
+-270 0.06758601
+-260 0.068525341
+-250 0.075206185
+-240 0.070347984
+-230 0.07294172
+-220 0.075264253
+-210 0.080561594
+-200 0.068425719
+-190 0.069792407
+-180 0.082390263
+-170 0.072195638
+-160 0.079840884
+-150 0.084513159
+-140 0.082834013
+-130 0.083446754
+-120 0.087909509
+-110 0.092745291
+-100 0.090826039
+-90 0.094208287
+-80 0.095272823
+-70 0.095654167
+-60 0.10616966
+-50 0.11309145
+-40 0.1101305
+-30 0.11278845
+-20 0.11084476
+-10 0.12001713
+0 0.12624214
+&
+@target G0.S20
+@type xy
+-330 0.04395784
+-320 0.041120545
+-310 0.045023491
+-300 0.045468374
+-290 0.046705033
+-280 0.046281548
+-270 0.051424744
+-260 0.051266362
+-250 0.053273163
+-240 0.054027646
+-230 0.06156376
+-220 0.062728306
+-210 0.062504097
+-200 0.070125487
+-190 0.071705447
+-180 0.077103897
+-170 0.079837799
+-160 0.079556103
+-150 0.082987711
+-140 0.087811591
+-130 0.088436335
+-120 0.093491925
+-110 0.094584814
+-100 0.096898671
+-90 0.098210694
+-80 0.10000189
+-70 0.1012068
+-60 0.10268233
+-50 0.10223101
+-40 0.10369659
+-30 0.10500607
+-20 0.1091455
+-10 0.11140289
+0 0.11373906
+&
+@target G0.S21
+@type xy
+-330 0.033512374
+-320 0.034738019
+-310 0.034790978
+-300 0.038560583
+-290 0.038920029
+-280 0.038260282
+-270 0.041485821
+-260 0.042175328
+-250 0.046131827
+-240 0.047109207
+-230 0.049138443
+-220 0.053422598
+-210 0.056246666
+-200 0.059251466
+-190 0.062297138
+-180 0.064468296
+-170 0.067166817
+-160 0.069977193
+-150 0.072081432
+-140 0.075657226
+-130 0.076753401
+-120 0.076806067
+-110 0.084988492
+-100 0.08388288
+-90 0.088537575
+-80 0.092297269
+-70 0.097980835
+-60 0.10238304
+-50 0.10360641
+-40 0.10485261
+-30 0.10332199
+-20 0.11173568
+-10 0.11512847
+0 0.11516677
+&
