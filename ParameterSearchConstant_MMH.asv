@@ -1,0 +1,137 @@
+Maxruns=110000;
+LeadCutoff=0.125;
+LaggCutoff=0.125;
+CytoCutoff = 3;
+
+S=load('PhotobleachCorrection.mat');
+DataDisplay = S.CorrectforPhotobleach;
+TimeFrame = DataDisplay(:,1)>-301 & DataDisplay(:,1)<1;
+DataIntT = DataDisplay(TimeFrame,1);
+count = DataDisplay(TimeFrame,2);
+DataIntCyto = DataDisplay(TimeFrame,5);
+DataIntLead = DataDisplay(TimeFrame,3);
+DataIntLag = DataDisplay(TimeFrame,4);
+AvgTotl = DataDisplay(TimeFrame,6);
+lengthDataInt=length(DataIntLag);
+
+DataInt = [DataIntLead DataIntLag DataIntCyto];
+
+
+%% Set up model
+
+Cy0 = DataIntCyto(1);
+MMHProp=2;
+t_max=lengthDataInt;
+ConstantCy=Cy0; %0 for conservation, else that is Cy value
+
+C1=(DataIntLead(1)+DataIntLag(2))/2; %leading MTOC initial value
+C2=C1; %Lagging MTOC initial value
+%% Parameters
+C_total = 1; %
+
+TotalSamples=1:1000;
+for mmhStyle = 1
+    parfor (Samplings=TotalSamples,4)
+
+        runningMMH=1;
+        myfilename=['MMH_Conserved_ExpNorm_300to0_style_',num2str(mmhStyle),'/Run_',num2str(Samplings), '.mat'];
+        if isfile(myfilename)
+            continue
+        end
+        n1 = 4*rand(1);   	%
+        n2 = 4*rand(1);
+        a_1 = 1*rand(1); 	%
+        a_2 = 1*rand(1); 	%
+        a_3 = 1*rand(1); 	%
+        a_4 = 1*rand(1); 	%
+        a_5 = 1*rand(1); 	%
+
+        array=[a_1 a_2 a_3 a_4 a_5 n1 n2];
+        count=1;
+        hits=[];
+        hits(1,:)=[array 1 inf inf inf];
+        j=2;
+
+        NewParameters=[array(1:5),C_total,array(6),ConstantCy,array(7)];
+        y0=[C1,C2];
+        y=zeros(t_max,3);
+        y(1,:)=[C1,C2,Cy0];
+        runningODE=1;
+        t=1;
+        while runningODE
+            [~,y1] = ode15s(@(t,y0)ODE_DL_3C(t,NewParameters,y0),[t-1,t-.5],y0);
+            y1=y1(end,:);
+            [~,y1] = ode15s(@(t,y1)ODE_DL_3C(t,NewParameters,y1),[t-.5,t],y1);
+            y1=y1(end,:);
+            if t==t_max
+                runningODE=0;
+            elseif norm(y1-y0)<0.00001 && t>=length(DataIntLag)
+                runningODE=0;
+            end
+            t=t+1;
+            deltay=y1-y0;
+            y0=y1;
+            y(t,:)=[y0,Cy0];
+
+        end
+        y=y(1:t,:);
+
+        %% Check to see if this run was the best match to the data
+        DistanceSimData = SimulationDataDistanceNormalized(DataInt,y);
+        hits(1,:)=[array j DistanceSimData(1) DistanceSimData(2) DistanceSimData(3)];
+        parsave(Samplings, array,hits,DistanceSimData,j,mmhStyle)
+        if DistanceSimData(1) < LeadCutoff && DistanceSimData(2) < LaggCutoff && DistanceSimData(3) < CytoCutoff
+            runningMMH=0;
+        end
+
+
+        while runningMMH
+            Candidate=mmh(array,MMHProp,1,mmhStyle);
+            NewParameters=[Candidate(1:5),C_total,Candidate(6),ConstantCy,Candidate(7)];
+            y0=[C1,C2];
+            y=zeros(t_max,3);
+            if ConstantCy ~= 0
+                y(1,:)=[C1,C2,1];
+            else
+                y(1,:)=[C1,C2,Cy0];
+            end
+            runningODE=1;
+            t=1;
+            while runningODE
+                [~,y1] = ode15s(@(t,y0)ODE_DL_3C(t,NewParameters,y0),[t-1,t-.5],y0);
+                y1=y1(end,:);
+                [~,y1] = ode15s(@(t,y1)ODE_DL_3C(t,NewParameters,y1),[t-.5,t],y1);
+                y1=y1(end,:);
+                t=t+1;
+                deltay=y1-y0;
+                y0=y1;
+                y(t,:)=[y0,C_total-sum(y0)];
+                if t==t_max
+                    runningODE=0;
+                end
+            end
+            y=y(1:t,:);
+
+            %% Check to see if this run was the best match to the data
+            DistanceSimData = SimulationDataDistanceNormalized(DataInt,y)
+            hits(1,:)=[array j DistanceSimData(1) DistanceSimData(2) DistanceSimData(3)];
+            parsave(Samplings, array,hits,DistanceSimData,j,mmhStyle)
+            if DistanceSimData(1) < LeadCutoff && DistanceSimData(2) < LaggCutoff && DistanceSimData(3) < CytoCutoff
+                runningMMH=0;
+            end
+            j=j+1;
+            if j> Maxruns
+                disp('maxruns')
+                runningMMH=0;
+            end
+        end
+
+        %% Report Result to compare to other models
+        parsave(Samplings, array,hits,hits(end,end-3:end),j,mmhStyle,'outside MMH loop')
+
+    end
+end
+
+function parsave(Samplings, array,hits,tempDistanceSimData,j,mmhStyle)
+save(sprintf('MMH_Conserved_ExpNorm_300to0_style_%d/Run_%g.mat',mmhStyle, Samplings),'array','hits','tempDistanceSimData','j')
+end
