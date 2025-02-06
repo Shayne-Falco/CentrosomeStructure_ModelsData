@@ -22,7 +22,7 @@ WholeError=[0,100];
 LeadLagError=[0,100];
 for run=1:2000
     
-    myfilename=['MMH_FRAP_Dynamic_dt1_SymmetricLeadLagg_Average',,num2str(run),'/Run_',num2str(run), '.mat'];
+    myfilename=['MMH_FRAP_Dynamic_dt1_SymmetricLeadLagg_Average',num2str(run),'/Run_',num2str(run), '.mat'];
     if isfile(myfilename)
         count=count+1;
         load(myfilename)
